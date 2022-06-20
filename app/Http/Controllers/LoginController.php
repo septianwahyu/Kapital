@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
@@ -28,6 +30,13 @@ class LoginController extends Controller
         return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
     }
 
+    public function logout()
+    {
+        auth()->logout();
+
+        return redirect()->route('login');
+    }
+
     public function registration()
     {
         return view('auth.registration');
@@ -41,9 +50,14 @@ class LoginController extends Controller
             'password' => 'required|min:6',
         ]);
            
-        $data = $request->all();
-        $check = $this->create($data);
+        // $data = $request->all();
+        // $check = $this->create($data);
+        $user = new User();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = Hash::make($request->password);
+        $user->save();
          
-        return redirect("dashboard")->withSuccess('Great! You have Successfully loggedin');
+        return redirect("login")->withSuccess('Great! You have Successfully loggedin');
     }
 }

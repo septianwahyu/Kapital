@@ -24,16 +24,25 @@
             </form>
             <!-- Navbar-->
             <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
-                <a class="btn btn-danger" href="{{url('/login')}}">Logout</a>
-                {{-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
-                    </ul>
-                </li> --}}
+                @if (auth()->user())
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="d-flex align-items-center px-3" href="{{url('/profile')}}">Hello, {{ auth()->user()->name }}</a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <form action="{{ route('proseslogout') }}" method="POST">
+                                    @csrf
+                                    <button class="btn btn-link" type="submit">Logout</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                @else
+                    <a href="{{ url('login') }}" class="btn btn-info">Login</a>
+                @endif
             </ul>
         </nav>
         <div id="layoutSidenav">
@@ -41,20 +50,24 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link" href="{{url('/')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Dashboard
+                            <a class="nav-link" href="{{url('/konsultasi')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-calculator"></i></div>
+                                Konsultasi
+                            </a>
+                            <a class="nav-link" href="{{url('/penjelasan')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book"></i></div>
+                                Penjelasan
                             </a>
                             <a class="nav-link" href="{{url('/data')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-database"></i></div>
                                 Data
                             </a>
                             <a class="nav-link" href="{{url('/howtouse')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                                 How to use
                             </a>
                             <a class="nav-link" href="{{url('/about')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-info-circle"></i></div>
                                 About
                             </a>
                         </div>
@@ -83,5 +96,7 @@
         <script src="{{asset('template/js/scripts.js')}}"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="{{asset('template/js/datatables-simple-demo.js')}}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        @yield('script')
     </body>
 </html>

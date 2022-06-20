@@ -3,7 +3,10 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\DataController;
 use App\Http\Controllers\HowtouseController;
+use App\Http\Controllers\KonsultasiController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PenjelasanController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,20 +20,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/index-template', function (){
-    return view('new-index');
-})->name('index');
-
 Route::get('/login', [LoginController::class, 'login'])->name('login');
+
+Route::post('/login', [LoginController::class, 'postLogin'])->name('proseslogin');
+
+Route::post('/logout', [LoginController::class, 'logout'])->name('proseslogout');
 
 Route::get('/registration', [LoginController::class, 'registration'])->name('registration');
 
-Route::resource('about', AboutController::class);
+Route::post('/registrarion', [LoginController::class, 'postregistration'])->name('postregistration');
 
-Route::resource('howtouse', HowtouseController::class);
+Route::middleware(['IsAuth'])->group(function () {
+    Route::get('/', function () {
+        return view('index');
+    })->name('index');
+    
+    Route::resource('konsultasi', KonsultasiController::class);
 
-Route::resource('data', DataController::class);
+    Route::resource('penjelasan', PenjelasanController::class);
+
+    Route::resource('data', DataController::class);
+
+    Route::resource('howtouse', HowtouseController::class);
+
+    Route::resource('about', AboutController::class);
+    
+    Route::resource('profile', ProfileController::class);
+});
