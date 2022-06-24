@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pelamar;
 use Illuminate\Http\Request;
 
 class KonsultasiController extends Controller
@@ -34,7 +35,36 @@ class KonsultasiController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
+        // $request->validate([
+        //     'fullname' => 'required',
+        //     'email' => 'required|email|unique:users',
+        //     'phone' => 'required|numeric',
+        //     'department' => 'required|min:1',
+        //     'work_experience' => 'required',
+        //     'education' => 'required',
+        //     'psikologi_test' => 'required',
+        //     'technical_test' => 'required',
+        //     'age' => 'required',
+        //     'toefl' => 'required',
+        //     'gpa' => 'required',
+        // ]);
+
+        $pelamar = new Pelamar();
+        $pelamar->nama = $request->fullname;
+        $pelamar->email = $request->email;
+        $pelamar->nohp = $request->phone;
+        $pelamar->departemen = $request->department;
+        $pelamar->k1_pengalaman = $request->work_experience;
+        $pelamar->k2_pendidikan = $request->education;
+        $pelamar->k3_psikologi = $request->psikologi_test;
+        $pelamar->k4_keahlian = $request->technical_test;
+        $pelamar->k5_umur = $request->age;
+        $pelamar->k6_toefl = $request->toefl;
+        $pelamar->k7_ipk = $request->gpa;
+        $pelamar->rekomendasi = $request->rekomendasi;
+        $pelamar->save();
+
+        return redirect("konsultasi")->withSuccess('Data berhasil disimpan.');
     }
 
     /**

@@ -14,7 +14,7 @@ class DataController extends Controller
      */
     public function index()
     {
-        $data = Pelamar::paginate(10);
+        $data = Pelamar::all();
         return view('data', compact('data'));
     }
 

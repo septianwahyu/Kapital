@@ -1,0 +1,31 @@
+k1_pengalaman,Dibawah 1 Tahun,1
+k1_pengalaman,2 Tahun,2
+k1_pengalaman,3 Tahun,3
+k1_pengalaman,4 Tahun,4
+k1_pengalaman,Diatas 5 Tahun,5
+k2_pendidikan,SMA/SMK,1
+k2_pendidikan,D3,2
+k2_pendidikan,S1,3
+k2_pendidikan,S2,4
+k2_pendidikan,S3,5
+k3_psikologi,Dibawah 5,1
+k3_psikologi,6,2
+k3_psikologi,7,3
+k3_psikologi,8,4
+k3_psikologi,Diatas 9,5
+k4_keahlian,Dibawah 5,1
+k4_keahlian,6,2
+k4_keahlian,7,3
+k4_keahlian,8,4
+k4_keahlian,Diatas 9,5
+k5-umur,Diatas 28,1
+k5-umur,23 - 27,2
+k5-umur,18 - 22,3
+k6_toefl,Dibawah 400,1
+k6_toefl,400 - 500,2
+k6_toefl,500 - 600,3
+k6_toefl,Diatas 600,4
+k7_ipk,"Dibawah 2,75",1
+k7_ipk,3,2
+k7_ipk,"3,25",3
+k7_ipk,"Diatas 3,5",4

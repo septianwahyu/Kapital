@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\DataController;
 use App\Http\Controllers\HowtouseController;
+use App\Http\Controllers\IndexController;
 use App\Http\Controllers\KonsultasiController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PenjelasanController;
@@ -28,12 +29,10 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('proseslogout')
 
 Route::get('/registration', [LoginController::class, 'registration'])->name('registration');
 
-Route::post('/registrarion', [LoginController::class, 'postregistration'])->name('postregistration');
+Route::post('/registration', [LoginController::class, 'postregistration'])->name('postregistration');
 
 Route::middleware(['IsAuth'])->group(function () {
-    Route::get('/', function () {
-        return view('index');
-    })->name('index');
+    Route::resource('/', IndexController::class);
     
     Route::resource('konsultasi', KonsultasiController::class);
 

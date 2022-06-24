@@ -1,0 +1,201 @@
+id,nama,email,nohp,departemen,k1_pengalaman,k2_pendidikan,k3_psikologi,k4_keahlian,k5_umur,k6_toefl,k7_ipk,rekomendasi
+1,Bennie Feil,Lori.Osinski78@gmail.com,733-590-4299 x6712,Engineer,1,2,1,3,1,2,1,Tidak Diterima
+2,Jean Tillman,Brittany_DAmore@yahoo.com,(388) 341-9317,HR,1,2,2,1,2,2,1,Tidak Diterima
+3,Randolph Gutkowski,German.Moore@gmail.com,1-237-448-4047 x63301,Finance,2,1,1,3,1,1,2,Tidak Diterima
+4,Toby Gibson,Christelle.Ebert@hotmail.com,262-833-8655 x8844,HR,2,1,1,1,2,3,3,Tidak Diterima
+5,Miss Jerald Schmeler,Roberto25@gmail.com,376-431-3424,Finance,1,3,1,2,1,2,4,Tidak Diterima
+6,Genevieve Kreiger,Joshua.Kuphal@gmail.com,1-468-335-1224,Marketing,1,4,1,1,2,3,3,Tidak Diterima
+7,Brett Bayer,Sandy.Haag37@gmail.com,219-852-3203,Finance,1,1,1,1,3,4,4,Tidak Diterima
+8,Ms. William Gislason,Bonnie_Wiza2@hotmail.com,687-555-2507,Commercial,3,1,1,1,1,2,3,Tidak Diterima
+9,Amber Brekke V,Maribel_Larkin91@gmail.com,(652) 594-9851 x75847,Commercial,1,2,2,2,2,1,3,Tidak Diterima
+10,Miss Marsha Larkin,Dallas.Reilly@gmail.com,831.572.7517,HR,3,2,1,1,1,3,1,Tidak Diterima
+11,Mr. Juanita Langosh,Arlene_Reynolds85@gmail.com,(320) 407-4488 x3347,Engineer,2,3,1,1,1,4,2,Tidak Diterima
+12,Ms. Mike Roob,Maurice12@yahoo.com,(594) 226-2860 x37166,HR,1,3,1,2,3,3,2,Tidak Diterima
+13,Boyd Collier,Edwin.Gibson@yahoo.com,943-513-1867,HR,1,3,1,3,1,3,3,Tidak Diterima
+14,Noah Cormier,Osbaldo_Renner@gmail.com,1-697-838-7954 x38238,Engineer,3,2,1,1,2,2,2,Tidak Diterima
+15,Maggie Larkin,Clay.Larkin@yahoo.com,1-408-520-0399 x70084,Commercial,3,1,1,1,2,1,4,Tidak Diterima
+16,Tom Rodriguez,Matilde49@hotmail.com,661-317-2548 x43780,Engineer,1,2,1,4,1,4,2,Tidak Diterima
+17,Sean Hyatt,David_Jacobson@yahoo.com,(912) 643-6267,HR,2,3,1,1,1,4,3,Tidak Diterima
+18,Ismael Berge I,Karina.Nikolaus@hotmail.com,916-417-1520 x5008,Finance,2,1,1,3,2,2,3,Tidak Diterima
+19,Dr. Ed Hettinger,Cynthia.Towne@gmail.com,(396) 827-0489 x4874,Marketing,1,1,2,5,2,1,1,Tidak Diterima
+20,Rachael Gusikowski,Elnora_Ratke@yahoo.com,937.618.8651,Commercial,1,3,1,4,1,2,3,Tidak Diterima
+21,Jenny Parker,Zachary.Padberg66@gmail.com,768.366.9966,Commercial,1,1,2,4,2,2,2,Tidak Diterima
+22,Alison Schroeder PhD,Hadley94@yahoo.com,348.694.9422,Engineer,1,3,2,4,1,2,1,Tidak Diterima
+23,Janice Toy,Billy.Moen69@hotmail.com,228-863-3116 x10654,HR,2,2,1,2,3,1,4,Tidak Diterima
+24,Amanda Jenkins,Kristian3@gmail.com,814.620.4439 x73182,Engineer,1,2,2,4,3,1,2,Tidak Diterima
+25,Ricardo Padberg Sr.,Cleo3@gmail.com,749.518.8968 x41423,Commercial,2,2,1,4,1,4,1,Tidak Diterima
+26,Jeff Carroll,Karine.Sanford@gmail.com,(827) 668-4104 x486,Commercial,2,4,1,4,1,2,1,Tidak Diterima
+27,Wendell Runolfsson DDS,Kristy.Miller@yahoo.com,1-329-716-8251 x841,Engineer,2,2,1,3,3,4,1,Tidak Diterima
+28,Doreen Cassin,Allene_Murphy@hotmail.com,1-629-492-7123 x411,Engineer,3,1,1,2,2,3,3,Tidak Diterima
+29,Valerie McKenzie,Michale81@gmail.com,1-241-926-3384 x69802,Engineer,3,4,1,2,1,3,1,Tidak Diterima
+30,Kate Rau,Xander.Cole11@yahoo.com,973.224.9502 x97163,Finance,2,3,2,2,2,3,1,Tidak Diterima
+31,Hubert Denesik,Katelyn.Crona@yahoo.com,984-323-8378 x8330,Engineer,1,1,4,1,1,4,2,Tidak Diterima
+32,Fred Bins,Madeline32@yahoo.com,1-374-703-7376 x6115,Finance,1,1,3,2,3,3,2,Tidak Diterima
+33,Warren Graham,Bernardo_Windler57@hotmail.com,1-658-834-5281 x67540,HR,2,2,2,1,3,4,2,Tidak Diterima
+34,Neal Gleason,Kallie.Dickens@hotmail.com,454-928-1411,Engineer,1,3,1,5,1,2,4,Tidak Diterima
+35,Phillip Buckridge,Elisa_Lindgren16@yahoo.com,817.289.6480,Engineer,1,2,2,4,2,1,4,Tidak Diterima
+36,Terrell Kreiger,Brady_Kirlin64@gmail.com,1-886-655-4303 x865,Commercial,3,3,1,1,3,4,1,Tidak Diterima
+37,Kathryn Konopelski IV,Ansel42@gmail.com,257.573.4026 x18727,Engineer,1,1,2,2,3,4,4,Tidak Diterima
+38,Lola Bauch,Kobe.Kiehn8@yahoo.com,1-965-437-2004 x67114,Marketing,2,1,2,3,2,1,4,Tidak Diterima
+39,Audrey Jast,Elnora_Gislason@gmail.com,695-688-2504 x24002,Engineer,2,1,3,3,3,1,1,Tidak Diterima
+40,Latoya Zulauf,Vallie.Swaniawski74@hotmail.com,1-210-463-3256 x959,Marketing,2,2,1,3,3,4,2,Tidak Diterima
+41,Cornelius McGlynn,Nayeli.Turner@gmail.com,248.744.9739 x426,Engineer,2,1,1,5,3,2,2,Tidak Diterima
+42,Rose Emmerich,Augustus.Zemlak@yahoo.com,1-259-549-7917,HR,1,3,4,2,1,1,3,Tidak Diterima
+43,Kelly Bergstrom DVM,Elsie82@gmail.com,(614) 275-8885 x593,Commercial,2,5,1,4,3,1,1,Tidak Diterima
+44,Clinton Bergnaum,Chasity70@hotmail.com,1-932-463-6792,Finance,2,3,2,3,1,4,1,Tidak Diterima
+45,Isabel Blick,Shanie48@hotmail.com,1-952-615-8070,Finance,1,1,4,1,3,2,4,Tidak Diterima
+46,Ginger Beier,Sienna_Waters85@hotmail.com,939.421.6510 x187,Commercial,2,3,3,1,1,2,4,Tidak Diterima
+47,Dr. Lucille Gerhold,Daisy.Jerde15@gmail.com,1-471-642-6868 x69723,Finance,2,5,2,2,2,1,3,Tidak Diterima
+48,Roberto Rolfson,Bethel_Kshlerin58@yahoo.com,1-918-998-2798,Commercial,4,1,1,1,2,3,4,Tidak Diterima
+49,Harvey Grimes,Jeanne91@hotmail.com,607.911.3969 x817,Commercial,1,1,4,4,1,3,1,Tidak Diterima
+50,Myra Walsh,Raymond_Christiansen89@gmail.com,822.570.4819,Commercial,2,2,4,1,1,1,4,Tidak Diterima
+51,Carl Sporer,Zetta.Johnston@hotmail.com,526.537.0877,Engineer,2,4,1,4,3,2,2,Tidak Diterima
+52,Craig Kerluke,Chelsey_Bartell@hotmail.com,217.426.9569,HR,2,1,2,3,3,3,3,Tidak Diterima
+53,Dean Russel,Alberto55@hotmail.com,1-369-995-1694 x729,HR,3,2,2,2,1,2,4,Tidak Diterima
+54,Freddie Schuster,Carter.Rogahn96@hotmail.com,449.636.8179 x9820,Engineer,3,1,3,1,1,4,2,Tidak Diterima
+55,Myra Bogisich PhD,Bernie85@yahoo.com,388.247.1455 x826,HR,1,3,2,5,1,4,2,Tidak Diterima
+56,Vera Marks,Jabari_Kshlerin@yahoo.com,1-908-643-0882 x582,Engineer,2,4,2,4,2,1,2,Tidak Diterima
+57,Carl Glover,Margarita.Mann@hotmail.com,(968) 619-4601,Marketing,4,1,2,2,3,1,2,Tidak Diterima
+58,Bernard Gislason,Angie_Larson21@gmail.com,1-491-807-1090 x91242,Finance,5,1,1,2,1,2,3,Tidak Diterima
+59,Virgil Glover,Chelsey.Upton29@hotmail.com,1-643-499-2357 x6951,Marketing,3,3,3,2,2,1,1,Tidak Diterima
+60,Jeannette Herman,Tommie.Jones@hotmail.com,1-484-807-7597 x94742,Marketing,2,5,2,2,3,2,2,Tidak Diterima
+61,Rochelle Weissnat,Estella.DAmore4@gmail.com,1-372-221-5592 x8247,Commercial,3,2,1,3,3,2,4,Tidak Diterima
+62,Ms. Esther Cremin,Theodora_Turner26@gmail.com,796.858.5471 x207,HR,1,4,5,1,3,1,1,Tidak Diterima
+63,Tasha Konopelski IV,Jolie.Gleichner@yahoo.com,425.707.2485,Commercial,3,3,1,3,1,3,4,Tidak Diterima
+64,Jean O'Connell II,Gloria56@hotmail.com,729.571.9257 x6950,Finance,4,2,1,2,1,3,4,Tidak Diterima
+65,Jeremy Bosco,Nikita.Grimes@yahoo.com,629-380-5882,HR,1,4,2,4,1,4,3,Tidak Diterima
+66,Carrie Weissnat,Abdul.Botsford@yahoo.com,369.510.2944 x263,HR,3,2,1,5,3,1,2,Tidak Diterima
+67,Opal Hills,Theodore_Gusikowski88@yahoo.com,1-392-582-9871 x6274,Engineer,3,5,1,2,3,1,4,Tidak Diterima
+68,Jennifer Kulas,Brant_Fisher7@yahoo.com,1-925-516-2471,Marketing,2,2,2,4,3,4,1,Tidak Diterima
+69,Alma Nolan,Virgie92@hotmail.com,412-550-9564,Commercial,2,4,2,2,2,3,4,Tidak Diterima
+70,Barbara Hettinger,Alessandra.Hintz@gmail.com,402.931.2491,Engineer,1,1,3,4,2,4,3,Tidak Diterima
+71,Roger Luettgen,Vada.Cronin@gmail.com,1-973-624-7987 x135,Commercial,3,3,1,5,2,2,2,Tidak Diterima
+72,Ms. Gretchen Gutmann,Johathan97@hotmail.com,1-389-367-3291 x543,Finance,5,4,1,3,1,1,1,Tidak Diterima
+73,Tammy Dach,Murl.Cartwright@hotmail.com,1-747-568-3437 x430,Finance,5,3,1,1,2,1,4,Tidak Diterima
+74,Eva Gerhold,Ashlynn.Murphy@hotmail.com,1-429-966-0311,Marketing,3,4,1,5,1,2,2,Tidak Diterima
+75,Iris Larson,Audreanne.Yundt@yahoo.com,1-539-230-3512 x65455,Marketing,1,4,5,1,2,2,2,Tidak Diterima
+76,Al Ullrich,Karl30@yahoo.com,911.232.6912 x0945,Marketing,3,4,2,2,1,3,3,Tidak Diterima
+77,Nancy Luettgen,Natalia.Paucek@yahoo.com,(267) 452-1144 x29732,Finance,2,3,2,4,3,3,2,Tidak Diterima
+78,Dan Hyatt,Cruz85@hotmail.com,(879) 201-7859,Commercial,2,5,3,3,1,2,2,Tidak Diterima
+79,Roman Littel,Brenda_Lowe@hotmail.com,(896) 348-3493 x38661,Finance,1,3,4,5,1,1,2,Tidak Diterima
+80,Guadalupe Beier MD,Kasandra21@gmail.com,1-824-819-2454,HR,3,3,2,3,2,1,4,Tidak Diterima
+81,Diana Ferry,Lela_Hane69@hotmail.com,(282) 420-4189 x726,Commercial,2,1,3,3,2,3,4,Tidak Diterima
+82,Billy Reynolds,Hilda_Lynch@gmail.com,1-339-980-5580 x4135,HR,3,1,3,5,1,2,1,Tidak Diterima
+83,Ken Crooks,Marcelle13@yahoo.com,1-936-749-1176 x306,Finance,3,1,4,2,3,2,1,Tidak Diterima
+84,Reginald Murazik,Chasity_Mitchell@hotmail.com,(900) 451-4057 x8604,Engineer,3,4,1,5,1,3,2,Tidak Diterima
+85,Eula Cassin,Vinnie81@yahoo.com,(208) 451-6269 x01370,Commercial,4,1,2,3,2,4,1,Tidak Diterima
+86,Leah Vandervort,Marcellus.Koelpin21@yahoo.com,1-238-264-9663 x41318,Commercial,3,2,4,2,2,2,1,Tidak Diterima
+87,Marie Larson,Cristopher13@hotmail.com,452-521-3790 x107,Marketing,3,2,2,2,3,3,4,Tidak Diterima
+88,Deanna Jacobi,Dale.Heller@hotmail.com,970-503-5328 x33145,Engineer,3,1,1,5,1,4,4,Tidak Diterima
+89,Christine Conn,Derick_Boehm@gmail.com,(244) 613-5225 x58163,Commercial,3,3,4,3,1,1,1,Tidak Diterima
+90,Alice Rowe,Chaz.Schneider@hotmail.com,1-768-308-4384 x22017,Marketing,4,3,2,2,2,2,3,Tidak Diterima
+91,Roosevelt Turner Jr.,Deshaun88@gmail.com,421.985.1292,Engineer,1,4,5,2,3,2,1,Tidak Diterima
+92,April Lehner,Ole.Lynch@hotmail.com,(457) 735-8250,HR,2,2,4,3,2,4,1,Tidak Diterima
+93,Clint Mills,Clyde19@hotmail.com,996.408.6554,Commercial,5,2,2,2,2,1,3,Tidak Diterima
+94,Angelina Waters,Berniece9@gmail.com,648-922-6793 x6679,Engineer,2,3,3,3,3,4,2,Tidak Diterima
+95,Alejandro Greenfelder,Ignacio_Orn@yahoo.com,666.966.1434 x40135,Engineer,4,1,1,5,2,4,2,Tidak Diterima
+96,Donald Hand,Corine_Collier@gmail.com,1-881-928-7991,HR,2,2,3,3,2,4,4,Tidak Diterima
+97,Eloise Hessel,Jalen0@gmail.com,1-264-299-6110,HR,2,4,5,1,3,1,2,Tidak Diterima
+98,Elsa Hayes MD,Imogene70@yahoo.com,1-559-615-5034,Engineer,1,1,5,4,3,2,2,Tidak Diterima
+99,Drew Bernier,Malcolm.Gottlieb@gmail.com,(447) 771-1592 x195,HR,2,5,3,1,3,4,3,Tidak Diterima
+100,Johnnie Parisian,Kobe_Bode40@yahoo.com,313-497-6774 x716,Marketing,2,1,4,5,1,1,4,Tidak Diterima
+101,Roland Volkman,Blanche56@yahoo.com,(335) 589-8883,Commercial,2,3,3,4,1,3,4,Tidak Diterima
+102,Vicki Schulist IV,Krystal.Becker@yahoo.com,1-712-854-0449 x9655,Commercial,3,1,5,1,2,2,3,Tidak Diterima
+103,Lonnie Mraz,Tyrese.Hodkiewicz@hotmail.com,(623) 701-0513 x77154,Engineer,4,1,3,4,2,1,2,Tidak Diterima
+104,Miss Courtney Marks,Torrey36@yahoo.com,868-444-9920 x867,HR,1,4,3,5,3,1,4,Tidak Diterima
+105,Lauren Welch,Annie79@hotmail.com,(440) 722-3852 x09289,HR,5,1,2,2,3,1,4,Tidak Diterima
+106,Ms. Donnie Ullrich,Claudine83@gmail.com,(227) 867-5139 x91825,Marketing,4,4,2,3,3,2,1,Tidak Diterima
+107,Angela Gutkowski,Kelvin.Price@gmail.com,299.794.9358,HR,2,5,4,1,3,4,1,Tidak Diterima
+108,Loren Roberts,Benedict88@gmail.com,384-624-3828 x051,Commercial,2,1,5,4,1,3,1,Tidak Diterima
+109,Ricardo Denesik,Amalia_OKon40@hotmail.com,773.963.3698,Engineer,2,4,4,2,3,1,4,Diterima
+110,Dr. Robert Gulgowski,Alena.Schoen18@yahoo.com,274.818.9477,HR,3,3,3,4,1,4,1,Diterima
+111,Kristie Little,Cara40@gmail.com,543.515.3011 x0662,Marketing,5,1,4,1,1,2,2,Diterima
+112,Miss Paulette Schulist,Ferne_Davis49@gmail.com,(936) 610-2343 x722,HR,3,5,2,5,2,1,2,Diterima
+113,Eunice Boyle,Cora.Denesik40@yahoo.com,546.688.4698,Engineer,3,4,3,4,1,1,3,Diterima
+114,Essie Sanford,Alf.Stracke@hotmail.com,284-270-1160,Marketing,5,3,2,3,3,1,1,Diterima
+115,Jonathon Lebsack,Arlene73@yahoo.com,1-491-610-2594,Finance,4,5,3,1,2,2,2,Diterima
+116,Teri Rippin,Edythe_Hermiston7@hotmail.com,1-847-473-8393 x20136,Marketing,5,1,1,4,2,3,3,Diterima
+117,Ella McLaughlin Sr.,Michelle_Glover85@gmail.com,444-453-9220 x95619,Commercial,4,1,4,1,3,2,3,Diterima
+118,Stewart Wilderman,Juston75@yahoo.com,679.966.6867 x84016,Finance,4,5,3,2,2,1,2,Diterima
+119,Beatrice Fadel,Casandra42@yahoo.com,(231) 793-6591 x68504,Engineer,3,1,3,3,3,4,3,Diterima
+120,Jeff Romaguera,Allene59@hotmail.com,690-731-1208,Engineer,3,2,4,4,1,1,3,Diterima
+121,Melba Gusikowski,Tressie.Walsh@gmail.com,(353) 819-1120,Engineer,4,1,4,1,3,3,2,Diterima
+122,Ms. Randy Kohler,Clara_Gibson@hotmail.com,423-201-9348 x12315,Marketing,4,3,4,2,1,1,3,Diterima
+123,Dr. Leah Schulist,Jamison_Kiehn89@yahoo.com,443-698-9873 x01527,Commercial,5,1,1,4,2,3,4,Diterima
+124,Micheal Beatty,Derek71@hotmail.com,909-560-0197 x149,Finance,3,5,4,1,2,2,3,Diterima
+125,Johnny Denesik,Randi20@gmail.com,687-591-2498 x734,Engineer,4,1,1,5,2,4,4,Diterima
+126,Roosevelt Beer,Austen41@hotmail.com,1-442-908-2965,Marketing,4,4,3,1,2,4,2,Diterima
+127,Bruce Prosacco,Laura_Rath@gmail.com,1-720-343-0509 x446,Engineer,4,2,3,5,1,2,1,Diterima
+128,Jane Hickle,Era97@hotmail.com,(711) 704-8426 x398,Marketing,1,4,4,5,3,3,1,Diterima
+129,Myrtle Botsford,Kayleigh_Reinger@gmail.com,962-260-5897 x40016,Commercial,4,5,2,3,1,3,3,Diterima
+130,Matthew Moore,Saige96@gmail.com,(698) 428-6120 x157,Finance,3,2,3,3,3,4,3,Diterima
+131,Noel Yundt,Bette.Dicki@hotmail.com,253-231-0991,Engineer,5,1,5,1,2,1,1,Diterima
+132,Eileen Lockman,Chase_Kirlin@hotmail.com,555-783-1278,Marketing,1,1,5,5,2,3,3,Diterima
+133,Nettie Wisoky,Jessika80@gmail.com,1-702-685-5261,HR,5,3,2,3,2,2,3,Diterima
+134,Shari Gislason,Henry_Bednar@yahoo.com,(855) 710-0329,Finance,5,1,4,3,1,2,1,Diterima
+135,Rosa Batz,Blair31@yahoo.com,356.527.2176,Marketing,4,2,5,1,2,1,3,Diterima
+136,Darrel Huels,Woodrow_Maggio@yahoo.com,643.483.8184 x50182,Marketing,2,4,3,3,3,4,4,Diterima
+137,Leon Kuhic,Jodie_Auer@hotmail.com,425-339-0375,Engineer,4,3,4,2,1,1,4,Diterima
+138,Natasha Weissnat,Leola89@yahoo.com,1-978-309-7890 x44730,Marketing,2,5,3,5,2,3,2,Diterima
+139,George Osinski,Demarcus63@yahoo.com,(838) 999-8131 x11896,Commercial,2,3,5,3,3,3,1,Diterima
+140,Danielle Armstrong,Ronaldo.Franecki@gmail.com,945.227.0893 x4776,Commercial,4,5,1,5,3,1,3,Diterima
+141,Yvonne Bosco,Norris.Denesik36@hotmail.com,1-844-559-1137,Marketing,4,2,2,3,3,4,4,Diterima
+142,Fred Monahan,Ruth.Mitchell@gmail.com,1-859-647-7869 x584,Engineer,1,1,5,5,3,2,4,Diterima
+143,Brenda Mayert,Ellis_Wuckert@yahoo.com,1-469-994-3464,HR,1,3,5,5,2,4,1,Diterima
+144,Rudy Padberg,Gabrielle.Rolfson@yahoo.com,1-353-488-8467 x77348,HR,5,1,4,4,1,1,1,Diterima
+145,Travis Abernathy,Orlando.Ritchie42@gmail.com,(725) 272-1733,Commercial,5,3,2,4,1,2,3,Diterima
+146,Arlene Hudson,Kaylin_Williamson@yahoo.com,1-500-570-9334 x69377,Engineer,3,2,3,5,3,3,2,Diterima
+147,Kari Huels,Javonte_Kreiger@yahoo.com,979-673-6850 x752,Finance,2,2,4,5,1,3,4,Diterima
+148,Mr. Myrtle Green,Kenny83@hotmail.com,(640) 551-4391,Commercial,3,4,3,3,3,2,4,Diterima
+149,Gabriel Breitenberg V,Thalia.Ferry@gmail.com,(519) 680-3707 x4395,Engineer,2,1,5,5,2,1,4,Diterima
+150,Jonathan Turner,Hyman_Jerde13@yahoo.com,1-732-972-1574 x3400,HR,2,4,5,3,1,2,4,Diterima
+151,Kurt Cruickshank,Eloise_Spinka@hotmail.com,1-245-283-5575,Engineer,2,4,4,4,2,4,2,Diterima
+152,Kelley Sauer,Bert.Lindgren30@hotmail.com,(836) 302-7596,Engineer,5,4,2,4,3,1,2,Diterima
+153,Ebony Bergstrom,Donald73@gmail.com,369-501-6756,HR,1,5,4,4,2,4,4,Diterima
+154,Valerie Heller,Jessie_Hirthe42@gmail.com,956-260-9071 x085,Engineer,3,5,5,1,3,3,1,Diterima
+155,Gregory Lesch,Bettye.Sawayn@hotmail.com,(439) 391-1410 x63280,Finance,2,4,5,4,2,1,3,Diterima
+156,Tonya Emmerich,Mae_Hills56@gmail.com,1-221-204-8146 x88695,Marketing,3,3,4,2,3,3,4,Diterima
+157,Viola Mayer,Lionel.Sporer70@hotmail.com,270-611-8108 x824,HR,2,1,5,4,3,2,4,Diterima
+158,Winston Lehner,Marlen.Franey@gmail.com,1-239-358-5870 x4808,HR,4,4,2,5,2,4,1,Diterima
+159,Dr. Adrienne Monahan,Cathy.Senger79@yahoo.com,501-281-8221 x8113,Commercial,4,4,3,4,1,2,3,Diterima
+160,Leonard Harvey,Wilfred.Stiedemann@gmail.com,974.586.3603,Engineer,4,3,5,2,2,1,2,Diterima
+161,Claire Flatley,Quincy37@yahoo.com,1-960-685-1291,Finance,3,5,4,4,1,3,1,Diterima
+162,Ms. Stephanie Wisoky,Madyson.Ondricka@yahoo.com,1-414-301-0554 x88073,Engineer,3,4,5,3,1,3,1,Diterima
+163,Robyn Legros PhD,Emerald.Ondricka64@hotmail.com,924.570.1202 x601,HR,5,3,4,1,3,2,2,Diterima
+164,Kenny Koss,Anabelle78@gmail.com,1-353-211-1532 x6599,Engineer,3,3,5,4,1,1,3,Diterima
+165,Violet Gottlieb,Jeromy.Pouros87@yahoo.com,(655) 588-4388 x915,Marketing,3,1,4,5,3,2,3,Diterima
+166,Moses Schneider,Kale20@yahoo.com,(283) 943-5551 x6441,HR,1,4,5,4,3,2,4,Diterima
+167,Phillip Zboncak,Ethelyn94@hotmail.com,735.550.4542 x4625,HR,5,2,3,4,1,1,4,Diterima
+168,Herbert Tillman,Raquel.Wolf34@yahoo.com,852.368.8360 x20865,HR,5,4,2,5,1,2,2,Diterima
+169,Elvira Bashirian MD,Diamond26@gmail.com,422-950-5623,HR,5,3,3,3,1,4,2,Diterima
+170,Ira Kerluke,Ottis_Rohan8@yahoo.com,343.419.8201 x236,Marketing,5,2,4,2,3,3,1,Diterima
+171,Chester Nikolaus DVM,Ford_Franey@yahoo.com,1-486-226-1242 x6549,Commercial,2,5,5,2,2,3,4,Diterima
+172,Terry Sanford I,Jovani56@hotmail.com,845-752-0834 x8903,HR,4,3,2,5,2,3,4,Diterima
+173,Rachael Ebert,Lane_Dooley@gmail.com,(944) 624-3291 x22611,Engineer,4,2,4,5,1,1,3,Diterima
+174,Victoria Ritchie,Patrick.Hackett18@yahoo.com,783-231-3150 x12444,Engineer,3,2,5,2,3,4,3,Diterima
+175,Crystal Sipes,Kelsi_Welch61@hotmail.com,1-950-708-8463 x097,Marketing,5,5,4,1,2,3,1,Diterima
+176,Luky Setiawan,Delbert_Ernser@gmail.com,778.798.2231,Marketing,3,2,5,2,3,4,3,Diterima
+177,Curtis Raynor MD,Makayla_Ritchie@gmail.com,383.985.1055,Marketing,4,2,5,4,2,2,1,Diterima
+178,Tonya Reilly,Melba.Miller@gmail.com,(319) 444-1839,Finance,1,5,5,5,3,4,1,Diterima
+179,Mrs. Eric Hammes,Krista53@gmail.com,769.985.0928 x196,Finance,4,2,4,4,3,3,2,Diterima
+180,Meghan Will DDS,Wayne0@gmail.com,(630) 568-8402 x0745,Commercial,3,5,4,5,1,3,2,Diterima
+181,Sherman Kuphal V,Joshuah41@yahoo.com,678.691.2176 x04369,Marketing,5,5,1,5,1,4,4,Diterima
+182,Dewey Abernathy,Kim.Donnelly72@hotmail.com,(559) 885-8164,Finance,2,5,5,4,2,3,3,Diterima
+183,Beulah Effertz,Janie.Vandervort45@hotmail.com,444-952-2100 x53778,Marketing,4,4,5,2,3,2,2,Diterima
+184,Miss Kyle Greenholt,Alexander_Volkman77@yahoo.com,(501) 766-6372,Marketing,5,4,3,3,1,4,3,Diterima
+185,Ken Morissette,Shana32@hotmail.com,1-996-401-0061 x2884,Engineer,5,5,3,5,2,1,1,Diterima
+186,Pam Becker,Sandra11@yahoo.com,1-609-684-6554 x393,Commercial,3,5,4,5,2,3,2,Diterima
+187,Marcus Kuphal,Mortimer40@hotmail.com,408.346.0964 x5038,Marketing,4,3,5,4,1,1,4,Diterima
+188,Sharon Ledner,Peggie10@gmail.com,(915) 824-9793 x66355,Marketing,3,5,5,5,1,3,1,Diterima
+189,Kyle McCullough,Kayden.Glover@yahoo.com,350-313-3410,Finance,5,3,5,2,2,4,1,Diterima
+190,Wendy Johns,Linwood.McLaughlin34@gmail.com,375.386.9439,HR,4,3,5,5,2,2,1,Diterima
+191,Benny Raynor,Green_Ziemann@gmail.com,(366) 665-3895,HR,4,4,5,2,2,3,4,Diterima
+192,Virgil Marvin,Teresa.Zieme74@hotmail.com,927-837-5119 x3198,HR,5,3,5,2,3,2,3,Diterima
+193,Toni Stamm,Ola.Bauch66@hotmail.com,467-811-2422 x662,Finance,5,4,3,5,2,3,3,Diterima
+194,Mr. Doris Emard,Roderick_Larson76@yahoo.com,(944) 497-5720 x8251,Marketing,4,2,5,5,1,3,4,Diterima
+195,Ian Moen PhD,Alvina29@yahoo.com,493-903-9490,HR,5,5,5,4,2,1,1,Diterima
+196,Gregory Schimmel,Tracy93@gmail.com,641.495.5659,Finance,4,2,5,5,2,3,4,Diterima
+197,Earl Hodkiewicz,Ottis81@gmail.com,286-694-6072 x65986,HR,4,4,5,5,2,3,2,Diterima
+198,Lonnie Friesen,Mabel47@yahoo.com,748-899-2315 x33078,HR,5,1,5,5,1,4,3,Diterima
+199,Willard Brakus,Jason.Abbott@hotmail.com,513.413.4005 x56975,Engineer,5,5,5,4,2,3,3,Diterima
+200,Derrick Mann II,Liam.Wiza@gmail.com,769-392-3427,Engineer,5,5,5,5,3,3,3,Diterima

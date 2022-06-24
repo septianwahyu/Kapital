@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Tables - SB Admin</title>
+        <title>{{ config('app.name')}}</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="{{asset('template/css/styles.css')}}" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -26,10 +26,10 @@
             <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
                 @if (auth()->user())
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ auth()->user()->name }} <i class="fas fa-user fa-fw"></i></a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="d-flex align-items-center px-3" href="{{url('/profile')}}">Hello, {{ auth()->user()->name }}</a>
+                                <a class="d-flex align-items-center px-3" href="{{url('/profile')}}">Profile</a>
                             </li>
                             <li><hr class="dropdown-divider" /></li>
                             <li>
@@ -54,10 +54,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-calculator"></i></div>
                                 Konsultasi
                             </a>
-                            <a class="nav-link" href="{{url('/penjelasan')}}">
+                            {{-- <a class="nav-link" href="{{url('/penjelasan')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book"></i></div>
                                 Penjelasan
-                            </a>
+                            </a> --}}
                             <a class="nav-link" href="{{url('/data')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-database"></i></div>
                                 Data
@@ -97,6 +97,8 @@
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="{{asset('template/js/datatables-simple-demo.js')}}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         @yield('script')
     </body>
 </html>
